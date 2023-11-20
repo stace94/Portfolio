@@ -4,7 +4,7 @@ Welcome to my personal portfolio website repository! This website showcases my p
 
 ## Table of Contents
 - [Introduction](#Introduction)
-- [Navigation](##Navigation Toggle JavaScript)
+- [Navigation](##Navigation-Toggle-JavaScript)
 - [Contact](#Contact)
 - [Acknowledgments](#Acknowledgments)
 
