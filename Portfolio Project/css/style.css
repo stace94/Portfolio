@@ -466,9 +466,9 @@ header{
 
 /*Portfolio item individual*/
 
-.portfolio-item-individual{
+.portfolio-item-indivdual{
     padding: 0 2em 2em;
-    max-width: 500px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -479,6 +479,59 @@ header{
     width: 50%;
     box-shadow: var(--bs);
 }
+
+.portfolio-item-indivdual p{
+    max-width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 1em
+}
+
+.portfolio-item-indivdual h3{
+    max-width: 80% ;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+.features{
+    padding: 0 2em 2em;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 0em
+}
+.features li{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;    
+}
+
+.all-features{
+    padding-bottom: 2em;
+}
+.all-tech{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+/* Apply different styles when the screen width is 600 pixels or less */
+@media (max-width: 600px) {
+    .portfolio-individual-image {
+      width: 100%; /* Set the width to 100% to make the image fill the container */
+      height: auto; /* Maintain the aspect ratio when resizing */
+    }
+    .portfolio-item-indivdual{
+        padding: 0 2em 2em;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+  }
+
 
 .portfolio-item-individual p{
     max-width: 800px;
