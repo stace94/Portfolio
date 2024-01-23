@@ -399,15 +399,20 @@ header{
         
 }
 
-.portfolio__item{
+.portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
-.portfolio__img{
-    transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
-    opacity 250ms linear;
+.portfolio__img {
+    transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
+    max-width: 100%;
+    height: auto; 
 }
+
 
 .portfolio__item:focus{
     position: relavtive;
