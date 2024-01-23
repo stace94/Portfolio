@@ -404,9 +404,7 @@ header{
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center; 
-    max-width: 400px;
-    height: 400px; 
+    align-items: center;  
 }
 
 .portfolio__img {
