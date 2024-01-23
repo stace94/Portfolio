@@ -400,7 +400,7 @@ header{
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background: white;
     overflow: hidden;
     display: flex;
     justify-content: center;
