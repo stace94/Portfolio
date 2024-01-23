@@ -395,7 +395,7 @@ header{
 
 .portfolio{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*setting up grid for portfolio picture*/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /*setting up grid for portfolio picture*/
         
 }
 
@@ -405,6 +405,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center; 
+    max-width: 400px;
+    height: 400px; 
 }
 
 .portfolio__img {
