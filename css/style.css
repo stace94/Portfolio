@@ -393,31 +393,21 @@ header{
     margin-bottom: 2.5em;
 }
 
-.portfolio {
+.portfolio{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    justify-content: center;
-    gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /*setting up grid for portfolio picture*/
+        
 }
 
-.portfolio__item {
-    background: white;
+.portfolio__item{
+    background: var(--clr-accent);
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 375px; 
-    padding-top: 100%; 
 }
 
-.portfolio__img {
-    transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+.portfolio__img{
+    transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
+    opacity 250ms linear;
 }
-
 
 .portfolio__item:focus{
     position: relavtive;
