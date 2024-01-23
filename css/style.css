@@ -393,10 +393,11 @@ header{
     margin-bottom: 2.5em;
 }
 
-.portfolio{
+.portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /*setting up grid for portfolio picture*/
-        
+    grid-template-columns: repeat(3, 1fr); 
+    justify-content: center;
+    gap: 0px;
 }
 
 .portfolio__item {
@@ -404,13 +405,17 @@ header{
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
+    height: 375px; 
+    padding-top: 100%; 
 }
 
 .portfolio__img {
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
     max-width: 100%;
-    height: auto; 
+    max-height: 100%;
+    width: auto;
+    height: auto;
 }
 
 
